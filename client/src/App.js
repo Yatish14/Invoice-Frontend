@@ -20,12 +20,12 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/login" />} />
-          {User && <Route path="/home" element={<UserDetails />} />}
-          <Route path="/login" element={<Login />}/>
+          <Route path="/Invoice-Frontend" element={<Navigate to="/Invoice-Frontend/login" />} />
+          {User && <Route path="/Invoice-Frontend/home" element={<UserDetails />} />}
+          <Route path="/Invoice-Frontend/login" element={<Login />}/>
         </Routes>
         <div className="pls-login">
-          {!User && path === 'home' && <h4>Please <Link to = '/login'>Log in</Link> to Continue</h4>}
+          {!User && path === 'home' && <h4>Please <Link to = '/Invoice-Frontend/login'>Log in</Link> to Continue</h4>}
         </div>
       </div>
   );

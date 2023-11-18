@@ -15,7 +15,7 @@ function Login() {
     setUser(user);
     console.log(user);
     document.getElementById('signindiv').hidden = true;
-    navigate('/home')
+    navigate('/Invoice-Frontend//home')
   };
   const handleSignOut = (res) => {
     setUser({})
@@ -40,13 +40,6 @@ function Login() {
   return (
     <div className="Login">
       <div id="signindiv"></div>
-      {/* {Object.keys(User).length !== 0 && <button onClick={handleSignOut}>Sign Out</button>} */}
-      {/* {Object.keys(User).length !== 0 && (
-        <div>
-          <h1>{User.name}</h1>
-          <img src={User.picture}/>
-        </div>
-      )} */}
     </div>
   );
 }
