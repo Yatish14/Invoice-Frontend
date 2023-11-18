@@ -15,7 +15,7 @@ function Login() {
     setUser(user);
     console.log(user);
     document.getElementById('signindiv').hidden = true;
-    navigate('/Invoice-Frontend//home')
+    navigate('/Invoice-Frontend/home')
   };
   const handleSignOut = (res) => {
     setUser({})

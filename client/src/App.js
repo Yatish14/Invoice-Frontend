@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   const { User,setUser } = useUser();
-  const path = useLocation().pathname.split('/')[1];
+  const path = useLocation().pathname.split('/')[2];
   console.log(User)
   useEffect(()=> {
     return() => {
