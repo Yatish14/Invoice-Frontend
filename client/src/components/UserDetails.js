@@ -13,7 +13,7 @@ const UserDetails = () => {
       name: User.name
     }
     console.log(datatoSend)
-    axios.post("http://localhost:5000/generate-invoice", datatoSend)
+    axios.post("https://invoice-backend-c8m6.onrender.com/generate-invoice", datatoSend)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -24,7 +24,7 @@ const UserDetails = () => {
       });
   };
   useEffect(() => {
-    fetch("http://localhost:5000/usageAndBilling")
+    fetch("https://invoice-backend-c8m6.onrender.com/usageAndBilling")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
