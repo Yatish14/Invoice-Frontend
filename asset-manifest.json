@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Invoice-Frontend/static/css/main.bde5b6d7.css",
+    "main.js": "/Invoice-Frontend/static/js/main.69222528.js",
+    "index.html": "/Invoice-Frontend/index.html",
+    "main.bde5b6d7.css.map": "/Invoice-Frontend/static/css/main.bde5b6d7.css.map",
+    "main.69222528.js.map": "/Invoice-Frontend/static/js/main.69222528.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bde5b6d7.css",
+    "static/js/main.69222528.js"
+  ]
+}
