@@ -65,7 +65,7 @@ const UserDetails = () => {
                   <td>
                     <strong>{value.amount}</strong>
                   </td>
-                  <td><Button variant="primary" onClick={() => sendInvoice(value)}>Send Inoive</Button></td>
+                  <td><Button variant="primary" onClick={() => sendInvoice(value)}>Send Invoice</Button></td>
                 </tr>
               );
             })}
